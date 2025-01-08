@@ -75,8 +75,47 @@ Práctica de desarrollo de software basada en el principio de que el código nue
     <p><em>(Sonar way)</em></p>
 </details>
 
+## Métricas
+[Fuente](https://docs.sonarsource.com/sonarqube-server/latest/user-guide/code-metrics/metrics-definition/)
+### Mantenibilidad
+#### Deuda técnica
+El Deuda técnica es la suma de los costos de corrección de problemas de mantenibilidad. Un costo de corrección de problemas es el esfuerzo (en minutos) evaluado para solucionar el problema. El costo de corrección del problema se toma del esfuerzo asignado a la regla que planteó el problema.
 
+#### Ratio de endeudamiento técnico
 
+El ratio de deuda técnica es la relación entre el coste de desarrollar el software y la deuda técnica (el coste de arreglarlo). Se calcula sobre la base de la siguiente fórmula:
 
+$$
+\frac{\text{technicalDebt}}{\text{costToDevelop1LineOfCode} \times \text{numberOfLinesOfCode}}
+$$
 
+#### Índice
+* A ≤ 5% to 0%
+* B ≥ 5% to <10%
+* C ≥ 10% to <20%
+* D ≥ 20% to < 50%
+* E ≥ 50%
+
+### Fiabilidad
+#### Índice
+* A = 0 or more info issues
+* B = at least one low issue
+* C = at least one medium issue
+* D = at least one high issue
+* E = at least one blocker issue
+
+### Seguridad
+#### Índice de seguridad
+* A = 0 or more info issues
+* B = at least one low issue
+* C = at least one medium issue
+* D = at least one high issue
+* E = at least one blocker issue
+
+#### Índice de revisión de seguridad 
+* A = >= 80%
+* B = >= 70% and <80%
+* C = >= 50% and <70%
+* D = >= 30% and <50%
+* E = < 30%
 
