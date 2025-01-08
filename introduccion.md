@@ -38,18 +38,18 @@ La solución Sonar está diseñada para ayudarte a alcanzar un estado de Código
 
 * Cada atributo de código limpio se evalúa, para un lenguaje dado, en función de una serie de reglas
     <details>
-    <summary>Reglas: (Haz clic para expandir)</summary>
-    <p>Cada regla:</p>
-    <ul>
-        <li>Está asociada con el atributo de código limpio que evalúa.</li>
-        <li>Está asociada con la(s) cualidad(es) del software a las que este atributo de Clean Code contribuye.</li>
-        <li>
-            Cada cualidad del software asociada (seguridad, confiabilidad o mantenibilidad) recibe un nivel de severidad 
-            (crítico, alto, medio, bajo o informativo). Esta severidad determina cuánto se ve afectada esa cualidad del 
-            software cuando se incumple la regla.
-        </li>
-    </ul>
-</details>
+        <summary>Reglas: (Haz clic para expandir)</summary>
+        <p>Cada regla:</p>
+        <ul>
+            <li>Está asociada con el atributo de código limpio que evalúa.</li>
+            <li>Está asociada con la(s) cualidad(es) del software a las que este atributo de Clean Code contribuye.</li>
+            <li>
+                Cada cualidad del software asociada (seguridad, confiabilidad o mantenibilidad) recibe un nivel de severidad 
+                (crítico, alto, medio, bajo o informativo). Esta severidad determina cuánto se ve afectada esa cualidad del 
+                software cuando se incumple la regla.
+            </li>
+        </ul>
+    </details>
 * Si se incumple una regla, se genera un problema(issue).
 * Este problema afecta una o más cualidades del software con diferentes * niveles de severidad.
 
