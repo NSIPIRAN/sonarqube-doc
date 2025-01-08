@@ -85,9 +85,20 @@ El Deuda técnica es la suma de los costos de corrección de problemas de manten
 
 El ratio de deuda técnica es la relación entre el coste de desarrollar el software y la deuda técnica (el coste de arreglarlo). Se calcula sobre la base de la siguiente fórmula:
 
-$$
-\frac{\text{technicalDebt}}{\text{costToDevelop1LineOfCode} \times \text{numberOfLinesOfCode}}
-$$
+<div>
+    <h3>Ratio de endeudamiento técnico</h3>
+    <p>El ratio de deuda técnica es la relación entre el coste de desarrollar el software y la deuda técnica (el coste de arreglarlo). Se calcula sobre la base de la siguiente fórmula:</p>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+            <mrow><mi>technicalDebt</mi></mrow>
+            <mrow>
+                <mi>costToDevelop1LineOfCode</mi>
+                <mo>&#x22C5;</mo> <!-- símbolo de multiplicación • -->
+                <mi>numberOfLinesOfCode</mi>
+            </mrow>
+        </mfrac>
+    </math>
+</div>
 
 #### Índice
 * A ≤ 5% to 0%
