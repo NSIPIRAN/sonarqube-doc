@@ -32,13 +32,15 @@ Ve a tu cuenta de GitLab.
   * sudo apt-get install zip
   * sudo unzip sonar-scarnner.zip
   * sudo nano /etc/profile
+        export SONAR_SCANNER_HOME="/opt/sonar-scanner-6.2.1.4610-linux-x64"
+        export PATH="$SONAR_SCANNER_HOME/bin:$PATH"
   * source /etc/profile
  
 ## Deploy
 
 ### Instalar sonnar-runner Debian
  - https://docs.gitlab.com/runner/install/linux-repository.html?tab=Debian%2FUbuntu%2FMint
- - curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh" | sudo bash
+ - 'curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh" | sudo bash'
  - sudo apt install gitlab-runner
  - apt-cache madison gitlab-runner
  - sudo apt install gitlab-runner
