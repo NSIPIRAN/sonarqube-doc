@@ -1,7 +1,7 @@
 ## Pasos previos
 ### Hacer los pull con SSH
 
-ssh-keygen -t rsa -b 4096 -C "otidg15@igp.gob.pe"
+ssh-keygen -t rsa -b 4096 -C "correo@"
 
 Copiar
  cat ~/.ssh/id_rsa.pub
